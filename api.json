@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/orang-dalam",
     "maintainers": [
       {
@@ -16,111 +16,204 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "orang-dalam",
-    "name": "Orang Dalam - The Hidden Forest People",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Orang Dalam",
+    "aliases": [
+      { "name": "Orang Mawas", "language": "Malay", "region": "Johor, Malaysia", "meaning": "Person of the forest / forest orangutan-person; 'mawas' is a regional name for orangutan" },
+      { "name": "Mawas", "language": "Malay", "region": "Johor, Malaysia / Sumatra, Indonesia" },
+      { "name": "Hantu Jarang Gigi", "language": "Malay (Orang Asli term)", "region": "Malaysia", "meaning": "Snaggle-toothed ghost" },
+      { "name": "Johor Bigfoot", "language": "English", "region": "Johor, Malaysia", "meaning": "Media term for the creature following 2005–2006 media coverage" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Humanoid hominid cryptid / Malaysian Bigfoot",
+    "tags": [
+      "malaysia",
+      "johor",
+      "humanoid",
+      "hominid",
+      "bipedal",
+      "forest-dwelling",
+      "southeast-asia",
+      "cryptid",
+      "tropical"
+    ],
+    "status": "unverified",
     "description": {
-      "summary": "This phenomenon has been documented extensively across multiple time periods and continues to generate interest from researchers, folklorists, and investigators.",
-      "full": "This phenomenon has been documented extensively across multiple time periods and continues to generate interest from researchers, folklorists, and investigators. The evidence includes eyewitness accounts, cultural traditions, and in some cases physical documentation."
+      "summary": "A large, bipedal, black-furred humanoid creature reported from the jungles of Johor, Malaysia, and sometimes Singapore, described as standing 2.4–3 meters tall and known by the alternative name Orang Mawas.",
+      "full": "The Orang Dalam (Malay: 'people within' or 'hidden people') is a cryptid reported from the dense tropical rainforests of Johor, Malaysia's southernmost state, and occasionally from across the causeway in Singapore. Also known as Orang Mawas (or simply Mawas), the creature is described as a large, bipedal, black-furred humanoid standing approximately 2.4–3 meters (roughly 8–10 feet) tall. It is said to feed on fish and raid fruit orchards. Indigenous Orang Asli communities refer to a related entity as 'hantu jarang gigi' ('snaggle-toothed ghost'). Documented claims of Mawas sightings date back to 1871 according to the Wikipedia article on Orang Mawas. A wave of sightings in 2005–2006 attracted significant media attention, particularly in Johor, and prompted official investigation. The Johor wildlife department conducted searches but found no conclusive evidence. Scientific opinion generally identifies the creature as a misidentified sun bear (Helarctos malayanus), a species common in Johor's forests that can stand bipedally and whose claws produce large marks. No specimen, photograph, or unambiguous physical evidence has been confirmed. The creature is comparable to other Southeast Asian hominid cryptids including the orang-pendek of Sumatra and various Malay forest spirit traditions."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Orang Dalam: Malay orang (person, people) + dalam (inside, within, deep). The name implies people who live within the deep forest, hidden from ordinary contact. Orang Mawas: mawas is a Malay/Indonesian word for orangutan, particularly in Sumatran usage — the name suggests a large ape-like creature.",
+      "meaning": "Hidden/interior people; forest orangutan-people",
+      "first_use": "1871 (earliest documented Mawas sighting claims per Orang Mawas Wikipedia article)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Humanoid hominid",
+      "subtype": "Southeast Asian forest hominid",
+      "variant": "Malaysian / Johor"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "orang-pendek", "name": "Orang Pendek", "relationship": "related", "description": "Smaller Sumatran bipedal cryptid; related Southeast Asian hominid tradition" },
+      { "id": "bigfoot", "name": "Bigfoot / Sasquatch", "relationship": "similar", "description": "North American large hairy bipedal cryptid; cross-cultural parallel" },
+      { "id": "yeti", "name": "Yeti", "relationship": "similar", "description": "Himalayan hairy hominid cryptid" },
+      { "id": "orang-bunian", "name": "Orang Bunian", "relationship": "related", "description": "Malay hidden spirit people; related Malay forest being tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 2.4, "max": 3.0, "unit": "meters", "confidence": "low" },
+      "coloration": ["black fur"],
+      "features": [
+        { "feature": "Black fur", "description": "Body covered in black fur or hair", "frequency": "always" },
+        { "feature": "Bipedal locomotion", "description": "Walks upright on two legs", "frequency": "always" },
+        { "feature": "Large size", "description": "Substantially taller and heavier than a human; estimated 2.4–3 meters", "frequency": "always" }
+      ],
+      "morphology": "A large, upright-walking, furry humanoid with overall ape-like proportions but human-like bipedal gait. Descriptions are consistent with a very large primate. Sun bears, which can stand bipedally and are common in Johor, are the leading skeptical explanation."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Forest traversal", "description": "Moves rapidly through dense tropical forest", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Fish catching", "description": "Reported to feed on fish from forest streams", "frequency": "occasional", "evidence_level": "reported" },
+      { "ability": "Orchard raiding", "description": "Reported to raid fruit orchards at forest margins", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "variable",
+      "habitat_preference": ["tropical rainforest", "Johor jungle", "areas near forest streams"],
+      "diet": "Fish; fruit; reported as an omnivore raiding orchards",
+      "patterns": [
+        "Avoids human contact; retreats when approached",
+        "Feeds at streams (fish) and forest margins (fruit)",
+        "Footprints left at encounter sites in some reports"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reported from the jungles of Johor, Malaysia's southernmost state, and occasionally from Singapore. Related creature (Muwa) reported from the Philippines; a related tradition (Butnak) from southern Thailand. In Sumatra, 'mawas' is used as a name for orangutans.",
+      "continents": ["Asia"],
+      "countries": ["Malaysia", "Singapore"],
+      "regions": [
+        "Johor, Malaysia",
+        "Endau-Rompin National Park area, Johor",
+        "Singapore (occasional reports)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Johor forests, Malaysia",
+        "location": {
+          "description": "Interior forests of Johor, including the Endau-Rompin area; site of 2005–2006 sighting wave",
+          "country": "Malaysia",
+          "region": "Johor",
+          "coordinates": { "latitude": 2.3, "longitude": 103.5 }
+        },
+        "notes": "Center of the 2005–2006 media coverage and official Johor wildlife department investigation"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1871-01-01",
+        "circa": false,
+        "source": "Wikipedia article on Orang Mawas: 'Recorded claims of Mawas sightings date back to 1871'"
+      },
+      "peak_activity_periods": [
+        { "period": "2005–2006", "description": "Wave of sightings in Johor attracted major media attention and a Johor wildlife department search" }
+      ],
+      "seasonal_patterns": "No documented seasonal pattern."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Orang Dalam / Orang Mawas tradition is rooted in Malay and Orang Asli (indigenous Malaysian people) forest traditions. The Orang Asli's term 'hantu jarang gigi' (snaggle-toothed ghost) suggests integration with broader Malay supernatural worldview. The tradition may also reflect actual encounters with known species (sun bears, orangutans) misidentified in forest conditions.",
+      "earliest_accounts": "Documented claims date to 1871. Oral traditions among Orang Asli communities are older.",
+      "folklore_connections": "Connected to the broader Southeast Asian tradition of wild forest hominids, including the orang-pendek of Sumatra and the orang-bunian hidden spirit people of Malay tradition. The Malay concept of hantu (ghost/spirit) overlaps with cryptid accounts in this tradition."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1871-01-01", "event": "Earliest documented Mawas sighting claims in Johor", "significance": "Establishes the antiquity of the tradition in recorded sources", "source": "Wikipedia: Orang Mawas" },
+      { "date": "2005-01-01", "event": "Wave of sightings in Johor attracts major media attention; Johor wildlife department conducts official search", "significance": "Primary modern documentation episode; brought the creature to international attention", "source": "Media coverage 2005–2006" }
+    ],
+    "modern_era": "The 2005–2006 Johor sighting wave prompted official investigation by Malaysian wildlife authorities, who found no conclusive evidence. Scientific opinion generally identifies reported Orang Dalam encounters as misidentified sun bears or other known wildlife. The creature remains a topic of occasional cryptozoological interest."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 10,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 10,
+      "debunked": 0,
+      "date_range": { "earliest": "1871", "latest": "2006" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Surviving or undescribed hominid",
+        "description": "Some researchers propose the Orang Dalam represents a surviving population of Gigantopithecus or another undescribed large primate in the Malaysian rainforest.",
+        "proponents": ["Some cryptozoological researchers"],
+        "evidence_cited": ["Consistency of size descriptions", "Suitable habitat in Johor's dense forests", "Historical depth of sighting records to 1871"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentified sun bear",
+        "description": "The Malaysian sun bear (Helarctos malayanus), a species common in Johor's forests, can stand bipedally and move in ways that could be misinterpreted as a large humanoid. Sun bears are the standard scientific explanation for Orang Dalam reports.",
+        "proponents": ["Johor wildlife department", "Malaysian wildlife biologists"],
+        "evidence_cited": ["Sun bears are common in Johor", "Can stand bipedally for extended periods", "Size and black fur consistent with sun bear", "No specimen or photograph of an unknown creature has been produced"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
+      "traditions": [
+        "Orang Asli (indigenous Malaysian) tradition of 'hantu jarang gigi' (snaggle-toothed ghost) as a forest being",
+        "Malay tradition of forest spirits overlapping with cryptid reports"
+      ],
       "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "beliefs": "In Orang Asli tradition, the creature is understood as a supernatural entity (hantu) rather than a biological animal. In the broader Malay context, it inhabits the liminal zone between the supernatural forest world and human settlement."
     },
     "popular_culture": {
       "literature": [],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "2005–2006 Malaysian media coverage brought the Johor Bigfoot to international cryptozoological attention"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "organizations": [
+      { "name": "Johor National Parks Corporation (JNPC)", "url": "https://www.johorparks.com.my", "focus": "Conducted official searches for the Orang Dalam/Mawas following 2005–2006 reports" }
+    ],
+    "ongoing_studies": "No ongoing systematic investigation. The creature falls within the general scope of Southeast Asian hominid cryptid research."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-orang-mawas", "type": "website", "title": "Orang Mawas", "url": "https://en.wikipedia.org/wiki/Orang_Mawas", "accessed": "2026-05-08" }
+  ]
 }
